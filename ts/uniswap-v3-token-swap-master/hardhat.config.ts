@@ -40,6 +40,11 @@ const config: HardhatUserConfig = {
         blockNumber: 13909440,
       }
     },
+    mainnet:{
+      //url: "https://eth-mainnet.g.alchemy.com/v2/",
+      url: alchemyApiKey,
+      accounts: ["0xc07e9f6a5a29c502d0ca0b12fa98f12b7476531019a0b01a3a97706612fcf27a"]
+    },
   },
 };
 
