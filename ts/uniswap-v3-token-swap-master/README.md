@@ -11,3 +11,8 @@ Note: Setup `.env` file with `ALCHEMY_API` variable set
 - run code with : `npx hardhat test`
 - code file: `test/index.ts`
 - contract from UniswapV3 examples: `contracts/Swap.sol`
+
+
+- in env, ALCHEMY_API="https://eth-mainnet.g.alchemy.com/xxxxx" 
+- in env, SEC_KEY = "xxxxx"
+- run : npx hardhat test --network mainnet

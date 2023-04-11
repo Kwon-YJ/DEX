@@ -24,6 +24,11 @@ if (!alchemyApiKey) {
   throw new Error("Please set your ALCHEMY_API in a .env file");
 }
 
+const sec_key: string | undefined = process.env.SEC_KEY;
+if (!sec_key) {
+  throw new Error("Please set your sec_key in a .env file");
+}
+
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 const config: HardhatUserConfig = {
@@ -41,9 +46,8 @@ const config: HardhatUserConfig = {
       }
     },
     mainnet:{
-      //url: "https://eth-mainnet.g.alchemy.com/v2/",
       url: alchemyApiKey,
-      accounts: ["0xc07e9f6a5a29c502d0ca0b12fa98f12b7476531019a0b01a3a97706612fcf27a"]
+      accounts: [sec_key],
     },
   },
 };
