@@ -106,7 +106,8 @@ class UniswapObject(object):
 
         self.provider = os.environ["PROVIDER"] if not provider else provider
         self.conn = Web3(Web3.HTTPProvider(self.provider, request_kwargs={"timeout": 60}))
-        if not self.conn.isConnected():
+        # if not self.conn.isConnected():
+        if not self.conn.is_connected():
             raise RuntimeError("Unable to connect to provider at " + self.provider)
 
     def _create_transaction_params(self, value=0, gas=1500000):

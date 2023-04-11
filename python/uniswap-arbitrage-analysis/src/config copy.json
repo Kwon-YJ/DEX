@@ -7,15 +7,41 @@
 
 	"network": "mainnet",
 	"https": [
-		"https://sepolia.infura.io/v3/de651bffb23d4f25966d37638af8496b"
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx",
+		"https://mainnet.infura.io/v3/xxxx"
 	],
 	"local": {
 		"http": "http://127.0.0.1:8545",
 		"wss": "ws://127.0.0.1:8546"
 	},
 	"mainnet": {
-		"http": "https://sepolia.infura.io/v3/de651bffb23d4f25966d37638af8496b",
+		"http": "https://mainnet.infura.io/v3/xxxxx",
 		"wss": "wss://mainnet.infura.io/ws/v3/xxxxx"
+	},
+	"ropsten": {
+		"http": "https://ropsten.infura.io/v3/xxxxx",
+		"wss": "wss://ropsten.infura.io/ws/v3/xxxxx"
+	},
+	"kovan": {
+		"http": "https://kovan.infura.io/v3/7aef3f0cd1f64408b163814b22cc643c",
+		"wss": "wss://kovan.infura.io/ws/v3/93ca33aa55d147f08666ac82d7cc69fd"
 	},
 	"gasnow_tx": "https://api.taichi.network:10001/rpc/public",
 	"gasnow": "https://gasnow.sparkpool.com/api/v3/gas/price",

@@ -22,12 +22,6 @@ printer_sushi_addr = config['printer_sushi']
 printer_abi = json.load(open('abi/printer.json'))
 
 
-print(address)
-print(privkey)
-print(http_addr)
-
-exit()
-
 uni = UniswapV2Client(address, privkey, http_addr)
 
 w3 = Web3(HTTPProvider(http_addr, request_kwargs={'timeout': 6000}))
